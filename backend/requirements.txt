@@ -1,0 +1,15 @@
+# Core API (light — always needed)
+fastapi>=0.110
+uvicorn[standard]>=0.29
+requests>=2.31
+pydantic>=2.6
+
+# Optional: natural-language interpretation via Claude (set ANTHROPIC_API_KEY)
+anthropic>=0.39
+
+# Optional: live Sentinel change detection (also needs numpy/rasterio/shapely below)
+# Install these only when going live with Copernicus:
+#   pip install numpy rasterio shapely
+numpy>=1.26
+rasterio>=1.3
+shapely>=2.0

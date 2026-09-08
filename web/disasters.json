@@ -1,0 +1,168 @@
+{
+  "_note": "SatQuery India disaster dataset. Add events here — the map builds from this file. type must be one of the keys in TYPES (flood, tsunami, earthquake, cyclone, glacial, industrial, subsidence). before/after are image paths (local img/ or any URL). facts is a list of short HTML strings.",
+  "types": {
+    "flood":       {"label": "Floods",          "color": "#3fa9ff"},
+    "tsunami":     {"label": "Tsunami",          "color": "#2ee6c8"},
+    "earthquake":  {"label": "Earthquake",       "color": "#ff8a3d"},
+    "cyclone":     {"label": "Cyclone",          "color": "#b57bff"},
+    "glacial":     {"label": "Glacial Flood",    "color": "#56d0ff"},
+    "industrial":  {"label": "Industrial",       "color": "#ff4d4d"},
+    "subsidence":  {"label": "Land Subsidence",  "color": "#e8c33a"}
+  },
+  "disasters": [
+    {
+      "n": "Uttarakhand (Kedarnath) Floods", "lat": 30.735, "lng": 79.067,
+      "t": "flood", "date": "Jun 2013", "sev": "CATASTROPHIC",
+      "b": "img/kedarnath2013_b.jpg", "a": "img/kedarnath2013_a.jpg",
+      "f": [
+        "A multi-day cloudburst plus a <b>glacial-lake overflow</b> at Chorabari sent a wall of water through Kedarnath valley.",
+        "Death toll ~<b>5,700</b> presumed dead; one of India's worst natural disasters.",
+        "Kedarnath town and pilgrim routes were largely destroyed; the temple itself survived.",
+        "Over <b>100,000</b> pilgrims and residents stranded; days-long military airlift followed."
+      ]
+    },
+    {
+      "n": "Indian Ocean Tsunami — Nagapattinam", "lat": 10.77, "lng": 79.84,
+      "t": "tsunami", "date": "26 Dec 2004", "sev": "CATASTROPHIC",
+      "b": "img/tsunami2004_b.jpg", "a": "img/tsunami2004_a.jpg",
+      "f": [
+        "Triggered by a <b>M9.1</b> megathrust quake off Sumatra; waves crossed the Bay of Bengal in hours.",
+        "India recorded ~<b>10,700</b> deaths; Tamil Nadu was worst hit.",
+        "<b>Nagapattinam</b> district alone lost ~6,000 people — mostly fishing communities.",
+        "Led to India's national tsunami early-warning system (INCOIS, 2007)."
+      ]
+    },
+    {
+      "n": "Kerala Floods", "lat": 9.95, "lng": 76.55,
+      "t": "flood", "date": "Aug 2018", "sev": "SEVERE",
+      "b": "img/kerala2018_b.jpg", "a": "img/kerala2018_a.jpg",
+      "f": [
+        "Worst flooding in Kerala in <b>~a century</b>, driven by extreme monsoon rainfall.",
+        "~<b>483</b> deaths; over <b>1 million</b> people moved to relief camps.",
+        "<b>35 of 54</b> dams were opened — the first time in decades for some, incl. Idukki.",
+        "Damage estimated near <b>₹40,000 crore</b> (~$5.7B)."
+      ]
+    },
+    {
+      "n": "Bhuj (Gujarat) Earthquake", "lat": 23.42, "lng": 70.31,
+      "t": "earthquake", "date": "26 Jan 2001", "sev": "CATASTROPHIC",
+      "b": "img/bhuj2001_b.jpg", "a": "img/bhuj2001_a.jpg",
+      "f": [
+        "<b>M7.7</b> intraplate quake on Republic Day; felt across western India and Pakistan.",
+        "~<b>20,000</b> killed, ~167,000 injured; Bhuj, Anjar and Bhachau devastated.",
+        "Around <b>400,000</b> homes destroyed; ~$5–7B in damage.",
+        "Drove India's modern seismic building codes and the Gujarat rebuild program."
+      ]
+    },
+    {
+      "n": "Cyclone Amphan", "lat": 22.05, "lng": 88.35,
+      "t": "cyclone", "date": "May 2020", "sev": "SEVERE",
+      "b": "img/amphan2020_b.jpg", "a": "img/amphan2020_a.jpg",
+      "f": [
+        "First <b>super cyclonic storm</b> in the Bay of Bengal since 1999 (satellite: 17→18 May intensification).",
+        "~<b>128</b> deaths across India &amp; Bangladesh; Kolkata and the Sundarbans hammered.",
+        "Costliest cyclone in North Indian Ocean history — ~<b>$13 billion</b> damage.",
+        "~<b>3 million</b> evacuated ahead of landfall despite the COVID lockdown."
+      ]
+    },
+    {
+      "n": "Cyclone Fani — Puri", "lat": 19.80, "lng": 85.82,
+      "t": "cyclone", "date": "3 May 2019", "sev": "SEVERE",
+      "b": "img/fani2019_b.jpg", "a": "img/fani2019_a.jpg",
+      "f": [
+        "Strongest cyclone to strike <b>Odisha</b> since the 1999 super cyclone.",
+        "~<b>89</b> deaths — kept low by a landmark <b>1.2 million</b>-person evacuation.",
+        "Puri &amp; Bhubaneswar saw widespread power and telecom collapse.",
+        "UN praised Odisha's 'near-zero-casualty' preparedness model."
+      ]
+    },
+    {
+      "n": "Bhopal Gas Disaster", "lat": 23.28, "lng": 77.41,
+      "t": "industrial", "date": "2–3 Dec 1984", "sev": "CATASTROPHIC",
+      "b": "img/bhopal1984_b.jpg", "a": "img/bhopal1984_a.jpg",
+      "f": [
+        "~<b>40 tonnes</b> of methyl isocyanate gas leaked from the Union Carbide plant.",
+        "~<b>3,800</b> died within days; estimates of <b>15,000+</b> deaths over time.",
+        "Widely called the <b>world's worst industrial disaster</b>.",
+        "Site contamination and health effects persist across generations."
+      ]
+    },
+    {
+      "n": "Chamoli Glacier Burst", "lat": 30.38, "lng": 79.86,
+      "t": "glacial", "date": "7 Feb 2021", "sev": "SEVERE",
+      "b": "img/chamoli2021_b.jpg", "a": "img/chamoli2021_a.jpg",
+      "f": [
+        "A <b>rock-and-ice avalanche</b> off Ronti Peak triggered a sudden flash flood.",
+        "Surged down the Rishiganga &amp; Dhauliganga rivers; ~<b>200</b> dead or missing.",
+        "Destroyed the Rishiganga plant and flooded the <b>Tapovan-Vishnugad</b> hydro tunnel.",
+        "Highlighted rising glacial-hazard risk in the fragile Himalaya."
+      ]
+    },
+    {
+      "n": "Joshimath Land Subsidence", "lat": 30.555, "lng": 79.566,
+      "t": "subsidence", "date": "Jan 2023", "sev": "ONGOING",
+      "b": "img/joshimath2023_b.jpg", "a": "img/joshimath2023_a.jpg",
+      "f": [
+        "Progressive <b>ground sinking</b> cracked homes across the Himalayan pilgrimage town.",
+        "Over <b>860 buildings</b> developed fissures; hundreds of families evacuated.",
+        "Linked to construction load, drainage and nearby <b>tunnelling</b> on unstable slopes.",
+        "A live warning on unchecked development in the young Himalaya."
+      ]
+    },
+    {
+      "n": "Chennai Floods", "lat": 13.08, "lng": 80.27,
+      "t": "flood", "date": "Nov–Dec 2015", "sev": "SEVERE",
+      "b": "img/chennai2015_b.jpg", "a": "img/chennai2015_a.jpg",
+      "f": [
+        "Heaviest rainfall in Chennai in <b>~100 years</b>, worsened by a strong El Niño.",
+        "~<b>290+</b> deaths across Tamil Nadu; the airport shut for days.",
+        "Unregulated wetland loss on the Adyar/Cooum floodplain intensified damage.",
+        "Economic losses estimated at <b>$3 billion+</b>."
+      ]
+    },
+    {
+      "n": "Odisha Super Cyclone (05B)", "lat": 20.31, "lng": 86.61,
+      "t": "cyclone", "date": "29 Oct 1999", "sev": "CATASTROPHIC",
+      "b": "img/odisha1999_b.jpg", "a": "img/odisha1999_a.jpg",
+      "f": [
+        "Struck near <b>Paradip</b> at Category-5 strength — India's most intense recorded cyclone.",
+        "A <b>5–6 m storm surge</b> pushed ~20 km inland; ~<b>9,900</b> killed.",
+        "~1.67 million homes damaged; Jagatsinghpur (Ersama) worst hit.",
+        "Catalysed India's modern cyclone-shelter and preparedness program."
+      ]
+    },
+    {
+      "n": "Kashmir Earthquake — Uri", "lat": 34.08, "lng": 74.05,
+      "t": "earthquake", "date": "8 Oct 2005", "sev": "CATASTROPHIC",
+      "b": "img/kashmir2005_b.jpg", "a": "img/kashmir2005_a.jpg",
+      "f": [
+        "<b>M7.6</b> quake with epicentre near Muzaffarabad, on the India–Pakistan divide.",
+        "On the Indian (J&amp;K) side ~<b>1,400</b> died — Uri, Tangdhar and Baramulla worst hit.",
+        "Total regional toll exceeded <b>86,000</b>, mostly in Pakistan-administered Kashmir.",
+        "Triggered large cross-border relief and temporary LoC crossings."
+      ]
+    },
+    {
+      "n": "Sikkim GLOF — Teesta", "lat": 27.60, "lng": 88.64,
+      "t": "glacial", "date": "3–4 Oct 2023", "sev": "SEVERE",
+      "b": "img/sikkim2023_b.jpg", "a": "img/sikkim2023_a.jpg",
+      "f": [
+        "A <b>glacial-lake outburst</b> from South Lhonak Lake surged down the Teesta river.",
+        "The flood destroyed the <b>1,200 MW Teesta-III dam</b> at Chungthang.",
+        "~<b>100</b> killed or missing; towns downstream to Rangpo were inundated.",
+        "Climate-driven lake growth had made South Lhonak a known standing hazard."
+      ]
+    },
+    {
+      "n": "Mumbai Deluge", "lat": 19.05, "lng": 72.85,
+      "t": "flood", "date": "26 Jul 2005", "sev": "SEVERE",
+      "b": "img/mumbai2005_b.jpg", "a": "img/mumbai2005_a.jpg",
+      "f": [
+        "<b>944 mm of rain in 24 h</b> at Santacruz — a record single-day deluge.",
+        "~<b>1,094</b> deaths in Maharashtra; the city was paralysed for days.",
+        "The choked, encroached <b>Mithi River</b> sharply worsened the flooding.",
+        "Prompted the BRIMSTOWAD storm-water and Mithi remediation programs."
+      ]
+    }
+  ]
+}

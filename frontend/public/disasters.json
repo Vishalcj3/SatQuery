@@ -1,0 +1,1069 @@
+{
+  "_note": "SatQuery India disaster dataset. Add events here — the map builds from this file. type must be one of the keys in TYPES (flood, tsunami, earthquake, cyclone, glacial, industrial, subsidence). before/after are image paths (local img/ or any URL). facts is a list of short HTML strings.",
+  "types": {
+    "flood": {
+      "label": "Floods",
+      "color": "#3fa9ff"
+    },
+    "tsunami": {
+      "label": "Tsunami",
+      "color": "#2ee6c8"
+    },
+    "earthquake": {
+      "label": "Earthquake",
+      "color": "#ff8a3d"
+    },
+    "cyclone": {
+      "label": "Cyclone",
+      "color": "#b57bff"
+    },
+    "glacial": {
+      "label": "Glacial Flood",
+      "color": "#56d0ff"
+    },
+    "industrial": {
+      "label": "Industrial",
+      "color": "#ff4d4d"
+    },
+    "subsidence": {
+      "label": "Land Subsidence",
+      "color": "#e8c33a"
+    }
+  },
+  "disasters": [
+    {
+      "n": "Uttarakhand (Kedarnath) Floods",
+      "lat": 30.735,
+      "lng": 79.067,
+      "t": "flood",
+      "date": "Jun 2013",
+      "sev": "CATASTROPHIC",
+      "b": "img/kedarnath2013_b.jpg",
+      "a": "img/kedarnath2013_a.jpg",
+      "f": [
+        "A multi-day cloudburst plus a <b>glacial-lake overflow</b> at Chorabari sent a wall of water through Kedarnath valley.",
+        "Death toll ~<b>5,700</b> presumed dead; one of India's worst natural disasters.",
+        "Kedarnath town and pilgrim routes were largely destroyed; the temple itself survived.",
+        "Over <b>100,000</b> pilgrims and residents stranded; days-long military airlift followed."
+      ],
+      "z": 12,
+      "r_km": 6,
+      "geo": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              79.058,
+              30.742
+            ],
+            [
+              79.07,
+              30.744
+            ],
+            [
+              79.079,
+              30.725
+            ],
+            [
+              79.085,
+              30.703
+            ],
+            [
+              79.089,
+              30.684
+            ],
+            [
+              79.081,
+              30.678
+            ],
+            [
+              79.071,
+              30.692
+            ],
+            [
+              79.064,
+              30.712
+            ],
+            [
+              79.056,
+              30.729
+            ],
+            [
+              79.058,
+              30.742
+            ]
+          ]
+        ]
+      },
+      "where": "Rudraprayag dist., Uttarakhand",
+      "impact": [
+        [
+          "Runways affected",
+          "0 (no airfield)"
+        ],
+        [
+          "Settlements hit",
+          "Kedarnath town + pilgrim trail"
+        ],
+        [
+          "Homes lost",
+          "~4,200"
+        ]
+      ]
+    },
+    {
+      "n": "Indian Ocean Tsunami — Nagapattinam",
+      "lat": 10.77,
+      "lng": 79.84,
+      "t": "tsunami",
+      "date": "26 Dec 2004",
+      "sev": "CATASTROPHIC",
+      "b": "img/tsunami2004_b.jpg",
+      "a": "img/tsunami2004_a.jpg",
+      "f": [
+        "Triggered by a <b>M9.1</b> megathrust quake off Sumatra; waves crossed the Bay of Bengal in hours.",
+        "India recorded ~<b>10,700</b> deaths; Tamil Nadu was worst hit.",
+        "<b>Nagapattinam</b> district alone lost ~6,000 people — mostly fishing communities.",
+        "Led to India's national tsunami early-warning system (INCOIS, 2007)."
+      ],
+      "z": 10,
+      "r_km": 18,
+      "geo": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              79.845,
+              11.0
+            ],
+            [
+              79.872,
+              10.99
+            ],
+            [
+              79.865,
+              10.83
+            ],
+            [
+              79.858,
+              10.66
+            ],
+            [
+              79.851,
+              10.55
+            ],
+            [
+              79.828,
+              10.565
+            ],
+            [
+              79.834,
+              10.7
+            ],
+            [
+              79.839,
+              10.86
+            ],
+            [
+              79.842,
+              10.98
+            ],
+            [
+              79.845,
+              11.0
+            ]
+          ]
+        ]
+      },
+      "where": "Nagapattinam coast, Tamil Nadu",
+      "impact": [
+        [
+          "Runways affected",
+          "0"
+        ],
+        [
+          "Coastline inundated",
+          "~15 km strip"
+        ],
+        [
+          "Villages hit",
+          "73"
+        ]
+      ]
+    },
+    {
+      "n": "Kerala Floods",
+      "lat": 9.95,
+      "lng": 76.55,
+      "t": "flood",
+      "date": "Aug 2018",
+      "sev": "SEVERE",
+      "b": "img/kerala2018_b.jpg",
+      "a": "img/kerala2018_a.jpg",
+      "f": [
+        "Worst flooding in Kerala in <b>~a century</b>, driven by extreme monsoon rainfall.",
+        "~<b>483</b> deaths; over <b>1 million</b> people moved to relief camps.",
+        "<b>35 of 54</b> dams were opened — the first time in decades for some, incl. Idukki.",
+        "Damage estimated near <b>₹40,000 crore</b> (~$5.7B)."
+      ],
+      "z": 9,
+      "r_km": 30,
+      "geo": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.4,
+              10.12
+            ],
+            [
+              76.58,
+              10.07
+            ],
+            [
+              76.7,
+              9.92
+            ],
+            [
+              76.68,
+              9.72
+            ],
+            [
+              76.52,
+              9.6
+            ],
+            [
+              76.38,
+              9.7
+            ],
+            [
+              76.33,
+              9.9
+            ],
+            [
+              76.4,
+              10.12
+            ]
+          ]
+        ]
+      },
+      "dates": {
+        "b0": "2018-01-15",
+        "b1": "2018-02-28",
+        "a0": "2018-08-14",
+        "a1": "2018-08-26"
+      },
+      "where": "Ernakulam / Kuttanad, Kerala",
+      "impact": [
+        [
+          "Runways submerged",
+          "1 · Cochin Intl (shut ~15 days)"
+        ],
+        [
+          "Villages hit",
+          "~800"
+        ],
+        [
+          "Relief camps",
+          "3,200+"
+        ]
+      ]
+    },
+    {
+      "n": "Bhuj (Gujarat) Earthquake",
+      "lat": 23.42,
+      "lng": 70.31,
+      "t": "earthquake",
+      "date": "26 Jan 2001",
+      "sev": "CATASTROPHIC",
+      "b": "img/bhuj2001_b.jpg",
+      "a": "img/bhuj2001_a.jpg",
+      "f": [
+        "<b>M7.7</b> intraplate quake on Republic Day; felt across western India and Pakistan.",
+        "~<b>20,000</b> killed, ~167,000 injured; Bhuj, Anjar and Bhachau devastated.",
+        "Around <b>400,000</b> homes destroyed; ~$5–7B in damage.",
+        "Drove India's modern seismic building codes and the Gujarat rebuild program."
+      ],
+      "z": 9,
+      "r_km": 40,
+      "geo": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              70.02,
+              23.55
+            ],
+            [
+              70.34,
+              23.56
+            ],
+            [
+              70.62,
+              23.41
+            ],
+            [
+              70.56,
+              23.19
+            ],
+            [
+              70.26,
+              23.16
+            ],
+            [
+              70.02,
+              23.29
+            ],
+            [
+              70.02,
+              23.55
+            ]
+          ]
+        ]
+      },
+      "where": "Kutch dist., Gujarat",
+      "impact": [
+        [
+          "Runways affected",
+          "0"
+        ],
+        [
+          "Towns flattened",
+          "Bhuj, Anjar, Bhachau"
+        ],
+        [
+          "Homes destroyed",
+          "~400,000"
+        ]
+      ]
+    },
+    {
+      "n": "Cyclone Amphan",
+      "lat": 22.05,
+      "lng": 88.35,
+      "t": "cyclone",
+      "date": "May 2020",
+      "sev": "SEVERE",
+      "b": "img/amphan2020_b.jpg",
+      "a": "img/amphan2020_a.jpg",
+      "f": [
+        "First <b>super cyclonic storm</b> in the Bay of Bengal since 1999 (satellite: 17→18 May intensification).",
+        "~<b>128</b> deaths across India &amp; Bangladesh; Kolkata and the Sundarbans hammered.",
+        "Costliest cyclone in North Indian Ocean history — ~<b>$13 billion</b> damage.",
+        "~<b>3 million</b> evacuated ahead of landfall despite the COVID lockdown."
+      ],
+      "z": 7,
+      "r_km": 70,
+      "geo": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              88.05,
+              22.62
+            ],
+            [
+              88.46,
+              22.6
+            ],
+            [
+              88.8,
+              22.18
+            ],
+            [
+              88.86,
+              21.72
+            ],
+            [
+              88.54,
+              21.52
+            ],
+            [
+              88.14,
+              21.7
+            ],
+            [
+              87.94,
+              22.12
+            ],
+            [
+              88.05,
+              22.62
+            ]
+          ]
+        ]
+      },
+      "dates": {
+        "b0": "2020-04-20",
+        "b1": "2020-05-10",
+        "a0": "2020-05-20",
+        "a1": "2020-06-02"
+      },
+      "where": "South 24 Parganas / Kolkata, WB",
+      "impact": [
+        [
+          "Runways closed",
+          "1 · Kolkata (NSCBI)"
+        ],
+        [
+          "Villages hit",
+          "~2,500"
+        ],
+        [
+          "Power outages",
+          "~14 M people"
+        ]
+      ]
+    },
+    {
+      "n": "Cyclone Fani — Puri",
+      "lat": 19.8,
+      "lng": 85.82,
+      "t": "cyclone",
+      "date": "3 May 2019",
+      "sev": "SEVERE",
+      "b": "img/fani2019_b.jpg",
+      "a": "img/fani2019_a.jpg",
+      "f": [
+        "Strongest cyclone to strike <b>Odisha</b> since the 1999 super cyclone.",
+        "~<b>89</b> deaths — kept low by a landmark <b>1.2 million</b>-person evacuation.",
+        "Puri &amp; Bhubaneswar saw widespread power and telecom collapse.",
+        "UN praised Odisha's 'near-zero-casualty' preparedness model."
+      ],
+      "z": 8,
+      "r_km": 45,
+      "geo": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              85.74,
+              20.36
+            ],
+            [
+              85.96,
+              20.31
+            ],
+            [
+              86.06,
+              19.96
+            ],
+            [
+              85.95,
+              19.7
+            ],
+            [
+              85.74,
+              19.74
+            ],
+            [
+              85.66,
+              20.06
+            ],
+            [
+              85.74,
+              20.36
+            ]
+          ]
+        ]
+      },
+      "dates": {
+        "b0": "2019-04-01",
+        "b1": "2019-04-25",
+        "a0": "2019-05-03",
+        "a1": "2019-05-18"
+      },
+      "where": "Puri / Khordha, Odisha",
+      "impact": [
+        [
+          "Runways closed",
+          "1 · Bhubaneswar"
+        ],
+        [
+          "Villages hit",
+          "~1,600"
+        ],
+        [
+          "Evacuated",
+          "1.2 M"
+        ]
+      ]
+    },
+    {
+      "n": "Bhopal Gas Disaster",
+      "lat": 23.28,
+      "lng": 77.41,
+      "t": "industrial",
+      "date": "2–3 Dec 1984",
+      "sev": "CATASTROPHIC",
+      "b": "img/bhopal1984_b.jpg",
+      "a": "img/bhopal1984_a.jpg",
+      "f": [
+        "~<b>40 tonnes</b> of methyl isocyanate gas leaked from the Union Carbide plant.",
+        "~<b>3,800</b> died within days; estimates of <b>15,000+</b> deaths over time.",
+        "Widely called the <b>world's worst industrial disaster</b>.",
+        "Site contamination and health effects persist across generations."
+      ],
+      "z": 12,
+      "r_km": 5,
+      "geo": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.396,
+              23.296
+            ],
+            [
+              77.416,
+              23.301
+            ],
+            [
+              77.462,
+              23.271
+            ],
+            [
+              77.492,
+              23.24
+            ],
+            [
+              77.47,
+              23.223
+            ],
+            [
+              77.43,
+              23.25
+            ],
+            [
+              77.406,
+              23.276
+            ],
+            [
+              77.396,
+              23.296
+            ]
+          ]
+        ]
+      },
+      "where": "Old Bhopal wards, Madhya Pradesh",
+      "impact": [
+        [
+          "Runways affected",
+          "0"
+        ],
+        [
+          "Wards exposed",
+          "36"
+        ],
+        [
+          "People exposed",
+          "~500,000"
+        ]
+      ]
+    },
+    {
+      "n": "Chamoli Glacier Burst",
+      "lat": 30.38,
+      "lng": 79.86,
+      "t": "glacial",
+      "date": "7 Feb 2021",
+      "sev": "SEVERE",
+      "b": "img/chamoli2021_b.jpg",
+      "a": "img/chamoli2021_a.jpg",
+      "f": [
+        "A <b>rock-and-ice avalanche</b> off Ronti Peak triggered a sudden flash flood.",
+        "Surged down the Rishiganga &amp; Dhauliganga rivers; ~<b>200</b> dead or missing.",
+        "Destroyed the Rishiganga plant and flooded the <b>Tapovan-Vishnugad</b> hydro tunnel.",
+        "Highlighted rising glacial-hazard risk in the fragile Himalaya."
+      ],
+      "z": 11,
+      "r_km": 10,
+      "geo": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              79.735,
+              30.462
+            ],
+            [
+              79.756,
+              30.468
+            ],
+            [
+              79.862,
+              30.396
+            ],
+            [
+              79.942,
+              30.36
+            ],
+            [
+              79.936,
+              30.344
+            ],
+            [
+              79.85,
+              30.38
+            ],
+            [
+              79.748,
+              30.45
+            ],
+            [
+              79.735,
+              30.462
+            ]
+          ]
+        ]
+      },
+      "dates": {
+        "b0": "2021-01-12",
+        "b1": "2021-02-05",
+        "a0": "2021-02-07",
+        "a1": "2021-02-22"
+      },
+      "where": "Tapovan, Chamoli, Uttarakhand",
+      "impact": [
+        [
+          "Runways affected",
+          "0"
+        ],
+        [
+          "Hydro projects hit",
+          "2 (Rishiganga, Tapovan)"
+        ],
+        [
+          "Missing / dead",
+          "~200"
+        ]
+      ]
+    },
+    {
+      "n": "Joshimath Land Subsidence",
+      "lat": 30.555,
+      "lng": 79.566,
+      "t": "subsidence",
+      "date": "Jan 2023",
+      "sev": "ONGOING",
+      "b": "img/joshimath2023_b.jpg",
+      "a": "img/joshimath2023_a.jpg",
+      "f": [
+        "Progressive <b>ground sinking</b> cracked homes across the Himalayan pilgrimage town.",
+        "Over <b>860 buildings</b> developed fissures; hundreds of families evacuated.",
+        "Linked to construction load, drainage and nearby <b>tunnelling</b> on unstable slopes.",
+        "A live warning on unchecked development in the young Himalaya."
+      ],
+      "z": 14,
+      "r_km": 1.5,
+      "geo": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              79.5545,
+              30.5655
+            ],
+            [
+              79.5785,
+              30.5665
+            ],
+            [
+              79.5835,
+              30.552
+            ],
+            [
+              79.575,
+              30.5445
+            ],
+            [
+              79.558,
+              30.547
+            ],
+            [
+              79.5518,
+              30.556
+            ],
+            [
+              79.5545,
+              30.5655
+            ]
+          ]
+        ]
+      },
+      "dates": {
+        "b0": "2022-10-01",
+        "b1": "2022-12-20",
+        "a0": "2023-01-05",
+        "a1": "2023-03-31"
+      },
+      "where": "Joshimath town, Uttarakhand",
+      "impact": [
+        [
+          "Runways affected",
+          "0"
+        ],
+        [
+          "Buildings cracked",
+          "868"
+        ],
+        [
+          "Families evacuated",
+          "~280"
+        ]
+      ]
+    },
+    {
+      "n": "Chennai Floods",
+      "lat": 13.08,
+      "lng": 80.27,
+      "t": "flood",
+      "date": "Nov–Dec 2015",
+      "sev": "SEVERE",
+      "b": "img/chennai2015_b.jpg",
+      "a": "img/chennai2015_a.jpg",
+      "f": [
+        "Heaviest rainfall in Chennai in <b>~100 years</b>, worsened by a strong El Niño.",
+        "~<b>290+</b> deaths across Tamil Nadu; the airport shut for days.",
+        "Unregulated wetland loss on the Adyar/Cooum floodplain intensified damage.",
+        "Economic losses estimated at <b>$3 billion+</b>."
+      ],
+      "z": 10,
+      "r_km": 15,
+      "geo": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.155,
+              13.125
+            ],
+            [
+              80.305,
+              13.145
+            ],
+            [
+              80.315,
+              13.02
+            ],
+            [
+              80.285,
+              12.915
+            ],
+            [
+              80.18,
+              12.935
+            ],
+            [
+              80.15,
+              13.02
+            ],
+            [
+              80.155,
+              13.125
+            ]
+          ]
+        ]
+      },
+      "dates": {
+        "b0": "2015-10-01",
+        "b1": "2015-11-05",
+        "a0": "2015-11-28",
+        "a1": "2015-12-12"
+      },
+      "where": "Adyar / Pallikaranai, Chennai",
+      "impact": [
+        [
+          "Runways submerged",
+          "2 · Chennai Intl (shut ~6 days)"
+        ],
+        [
+          "Neighbourhoods hit",
+          "~150"
+        ],
+        [
+          "Displaced",
+          "~1.8 M"
+        ]
+      ]
+    },
+    {
+      "n": "Odisha Super Cyclone (05B)",
+      "lat": 20.31,
+      "lng": 86.61,
+      "t": "cyclone",
+      "date": "29 Oct 1999",
+      "sev": "CATASTROPHIC",
+      "b": "img/odisha1999_b.jpg",
+      "a": "img/odisha1999_a.jpg",
+      "f": [
+        "Struck near <b>Paradip</b> at Category-5 strength — India's most intense recorded cyclone.",
+        "A <b>5–6 m storm surge</b> pushed ~20 km inland; ~<b>9,900</b> killed.",
+        "~1.67 million homes damaged; Jagatsinghpur (Ersama) worst hit.",
+        "Catalysed India's modern cyclone-shelter and preparedness program."
+      ],
+      "z": 8,
+      "r_km": 60,
+      "geo": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              86.34,
+              20.56
+            ],
+            [
+              86.76,
+              20.56
+            ],
+            [
+              86.91,
+              20.24
+            ],
+            [
+              86.8,
+              19.98
+            ],
+            [
+              86.44,
+              20.0
+            ],
+            [
+              86.29,
+              20.28
+            ],
+            [
+              86.34,
+              20.56
+            ]
+          ]
+        ]
+      },
+      "where": "Jagatsinghpur / Ersama, Odisha",
+      "impact": [
+        [
+          "Runways affected",
+          "0"
+        ],
+        [
+          "Villages hit",
+          "~12,600"
+        ],
+        [
+          "Homes damaged",
+          "~1.67 M"
+        ]
+      ]
+    },
+    {
+      "n": "Kashmir Earthquake — Uri",
+      "lat": 34.08,
+      "lng": 74.05,
+      "t": "earthquake",
+      "date": "8 Oct 2005",
+      "sev": "CATASTROPHIC",
+      "b": "img/kashmir2005_b.jpg",
+      "a": "img/kashmir2005_a.jpg",
+      "f": [
+        "<b>M7.6</b> quake with epicentre near Muzaffarabad, on the India–Pakistan divide.",
+        "On the Indian (J&amp;K) side ~<b>1,400</b> died — Uri, Tangdhar and Baramulla worst hit.",
+        "Total regional toll exceeded <b>86,000</b>, mostly in Pakistan-administered Kashmir.",
+        "Triggered large cross-border relief and temporary LoC crossings."
+      ],
+      "z": 10,
+      "r_km": 25,
+      "geo": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.89,
+              34.16
+            ],
+            [
+              74.2,
+              34.23
+            ],
+            [
+              74.41,
+              34.21
+            ],
+            [
+              74.36,
+              34.01
+            ],
+            [
+              74.05,
+              33.97
+            ],
+            [
+              73.87,
+              34.05
+            ],
+            [
+              73.89,
+              34.16
+            ]
+          ]
+        ]
+      },
+      "where": "Uri / Baramulla, J&K",
+      "impact": [
+        [
+          "Runways affected",
+          "0"
+        ],
+        [
+          "Villages damaged",
+          "~150"
+        ],
+        [
+          "Homes destroyed",
+          "~32,000"
+        ]
+      ]
+    },
+    {
+      "n": "Sikkim GLOF — Teesta",
+      "lat": 27.6,
+      "lng": 88.64,
+      "t": "glacial",
+      "date": "3–4 Oct 2023",
+      "sev": "SEVERE",
+      "b": "img/sikkim2023_b.jpg",
+      "a": "img/sikkim2023_a.jpg",
+      "f": [
+        "A <b>glacial-lake outburst</b> from South Lhonak Lake surged down the Teesta river.",
+        "The flood destroyed the <b>1,200 MW Teesta-III dam</b> at Chungthang.",
+        "~<b>100</b> killed or missing; towns downstream to Rangpo were inundated.",
+        "Climate-driven lake growth had made South Lhonak a known standing hazard."
+      ],
+      "z": 9,
+      "r_km": 40,
+      "geo": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              88.605,
+              27.63
+            ],
+            [
+              88.665,
+              27.62
+            ],
+            [
+              88.625,
+              27.34
+            ],
+            [
+              88.56,
+              27.14
+            ],
+            [
+              88.5,
+              27.16
+            ],
+            [
+              88.552,
+              27.39
+            ],
+            [
+              88.605,
+              27.63
+            ]
+          ]
+        ]
+      },
+      "dates": {
+        "b0": "2023-09-01",
+        "b1": "2023-09-30",
+        "a0": "2023-10-04",
+        "a1": "2023-10-22"
+      },
+      "where": "Chungthang → Rangpo, Sikkim",
+      "impact": [
+        [
+          "Runways affected",
+          "0"
+        ],
+        [
+          "Dam destroyed",
+          "1 · Teesta-III (1.2 GW)"
+        ],
+        [
+          "Bridges lost",
+          "~15"
+        ]
+      ]
+    },
+    {
+      "n": "Mumbai Deluge",
+      "lat": 19.05,
+      "lng": 72.85,
+      "t": "flood",
+      "date": "26 Jul 2005",
+      "sev": "SEVERE",
+      "b": "img/mumbai2005_b.jpg",
+      "a": "img/mumbai2005_a.jpg",
+      "f": [
+        "<b>944 mm of rain in 24 h</b> at Santacruz — a record single-day deluge.",
+        "~<b>1,094</b> deaths in Maharashtra; the city was paralysed for days.",
+        "The choked, encroached <b>Mithi River</b> sharply worsened the flooding.",
+        "Prompted the BRIMSTOWAD storm-water and Mithi remediation programs."
+      ],
+      "z": 11,
+      "r_km": 12,
+      "geo": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              72.795,
+              19.19
+            ],
+            [
+              72.925,
+              19.185
+            ],
+            [
+              72.955,
+              19.02
+            ],
+            [
+              72.905,
+              18.895
+            ],
+            [
+              72.815,
+              18.915
+            ],
+            [
+              72.795,
+              19.05
+            ],
+            [
+              72.795,
+              19.19
+            ]
+          ]
+        ]
+      },
+      "where": "Mithi basin / suburbs, Mumbai",
+      "impact": [
+        [
+          "Runways closed",
+          "1 · CSMIA (~30 h)"
+        ],
+        [
+          "Wards hit",
+          "~24"
+        ],
+        [
+          "Displaced",
+          "~150,000"
+        ]
+      ]
+    }
+  ]
+}

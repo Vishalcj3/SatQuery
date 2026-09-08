@@ -1,0 +1,34 @@
+[
+  {
+    "label": "VQA — count objects",
+    "file1": "presets/vqa_airport.png",
+    "file2": null,
+    "mod1": "optical",
+    "mod2": "auto",
+    "query": "How many runways are visible?"
+  },
+  {
+    "label": "Grounding — locate water",
+    "file1": "presets/ground_water.png",
+    "file2": null,
+    "mod1": "optical",
+    "mod2": "auto",
+    "query": "Highlight the water body"
+  },
+  {
+    "label": "Change — before/after",
+    "file1": "presets/change_before.png",
+    "file2": "presets/change_after.png",
+    "mod1": "optical",
+    "mod2": "optical",
+    "query": "What changed between these two dates?"
+  },
+  {
+    "label": "Optical-SAR fusion",
+    "file1": "presets/fusion_optical.png",
+    "file2": "presets/fusion_sar.png",
+    "mod1": "optical",
+    "mod2": "sar",
+    "query": "Use both to find water and built-up areas"
+  }
+]

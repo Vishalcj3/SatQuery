@@ -1,0 +1,22 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
+data/images/
+data/*.jsonl
+data/rsvqa_mini/
+adapter/
+*.html
+!presets/*
+.DS_Store
+gemini_api_key.txt
+.env
+.secrets/
+
+# frontend build artifacts
+frontend/node_modules/
+frontend/dist/
+frontend/vite.log
+node_modules/
+backend/server.log

@@ -1,0 +1,1170 @@
+{
+  "modes": [
+    {
+      "id": "agri",
+      "label": "Agriculture / Crop",
+      "accent": "#41c98a",
+      "icon": "🌾",
+      "query": "Which paddy fields haven't been sown this season vs last year?",
+      "desc": "SAR + change detection separates sown vs fallow cropland — cloud-independent — for crop insurance, drought early-warning and MSP planning.",
+      "sites": [
+        {
+          "n": "Cauvery Delta — Thanjavur, TN",
+          "lat": 10.79,
+          "lng": 79.14,
+          "z": 12,
+          "change": "−28% paddy sown vs 2024",
+          "q": "Which paddy fields haven't been sown this season vs last year?",
+          "f": [
+            "SAR backscatter shows <b>fallow paddy plots</b> unsown this kharif vs last year.",
+            "Delayed monsoon and canal shortfall left the tail-end command dry.",
+            "Flags fields for <b>PM-Fasal-Bima</b> claims and MSP procurement planning.",
+            "Cloud-independent — SAR reads the fields even under monsoon overcast."
+          ],
+          "geo": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  79.181,
+                  10.79
+                ],
+                [
+                  79.1724,
+                  10.8145
+                ],
+                [
+                  79.1476,
+                  10.8287
+                ],
+                [
+                  79.1175,
+                  10.8251
+                ],
+                [
+                  79.0964,
+                  10.8043
+                ],
+                [
+                  79.0951,
+                  10.7753
+                ],
+                [
+                  79.1155,
+                  10.7517
+                ],
+                [
+                  79.1488,
+                  10.7453
+                ],
+                [
+                  79.1797,
+                  10.7601
+                ],
+                [
+                  79.181,
+                  10.79
+                ]
+              ]
+            ]
+          },
+          "dates": {
+            "b0": "2024-08-01",
+            "b1": "2024-10-15",
+            "a0": "2025-08-01",
+            "a1": "2025-10-15"
+          },
+          "where": "Thanjavur dist., Tamil Nadu",
+          "impact": [
+            [
+              "Fields fallow",
+              "~28% of command"
+            ],
+            [
+              "Runways affected",
+              "0"
+            ]
+          ]
+        },
+        {
+          "n": "Paddy Belt — Ludhiana, Punjab",
+          "lat": 30.9,
+          "lng": 75.85,
+          "z": 12,
+          "change": "fallow patches detected",
+          "q": "Which fields shifted out of paddy this season?",
+          "f": [
+            "Change detection separates <b>transplanted paddy</b> from bare/fallow ground.",
+            "Supports crop-diversification tracking away from water-intensive rice.",
+            "Backs stubble-burning and water-use monitoring."
+          ],
+          "geo": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  75.9058,
+                  30.9
+                ],
+                [
+                  75.8938,
+                  30.9331
+                ],
+                [
+                  75.8571,
+                  30.9363
+                ],
+                [
+                  75.8288,
+                  30.933
+                ],
+                [
+                  75.8089,
+                  30.9134
+                ],
+                [
+                  75.8077,
+                  30.8861
+                ],
+                [
+                  75.8268,
+                  30.8638
+                ],
+                [
+                  75.8583,
+                  30.8577
+                ],
+                [
+                  75.8876,
+                  30.8716
+                ],
+                [
+                  75.9058,
+                  30.9
+                ]
+              ]
+            ]
+          },
+          "dates": {
+            "b0": "2024-08-01",
+            "b1": "2024-10-15",
+            "a0": "2025-08-01",
+            "a1": "2025-10-15"
+          },
+          "where": "Ludhiana dist., Punjab",
+          "impact": [
+            [
+              "Plots shifted",
+              "fallow patches"
+            ],
+            [
+              "Runways affected",
+              "0"
+            ]
+          ]
+        },
+        {
+          "n": "Bardhaman, West Bengal",
+          "lat": 23.25,
+          "lng": 87.85,
+          "z": 12,
+          "change": "−15% sown area",
+          "q": "Where is kharif paddy sowing lagging vs last year?",
+          "f": [
+            "Lower sown extent flagged across the rice bowl of Bengal.",
+            "Early input for procurement and relief planning."
+          ],
+          "geo": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  87.9031,
+                  23.25
+                ],
+                [
+                  87.8917,
+                  23.2815
+                ],
+                [
+                  87.8597,
+                  23.2995
+                ],
+                [
+                  87.8214,
+                  23.2945
+                ],
+                [
+                  87.8115,
+                  23.2626
+                ],
+                [
+                  87.8102,
+                  23.237
+                ],
+                [
+                  87.8282,
+                  23.2159
+                ],
+                [
+                  87.8578,
+                  23.2101
+                ],
+                [
+                  87.8855,
+                  23.2232
+                ],
+                [
+                  87.9031,
+                  23.25
+                ]
+              ]
+            ]
+          },
+          "dates": {
+            "b0": "2024-08-01",
+            "b1": "2024-10-15",
+            "a0": "2025-08-01",
+            "a1": "2025-10-15"
+          },
+          "where": "Purba Bardhaman, WB",
+          "impact": [
+            [
+              "Sown-area drop",
+              "~15%"
+            ]
+          ]
+        },
+        {
+          "n": "Raipur Plains, Chhattisgarh",
+          "lat": 21.25,
+          "lng": 81.63,
+          "z": 12,
+          "change": "late sowing detected",
+          "q": "Which blocks are behind on sowing?",
+          "f": [
+            "Delayed transplanting picked up as low-backscatter fields.",
+            "Feeds district-level drought early-warning."
+          ],
+          "geo": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  81.6804,
+                  21.25
+                ],
+                [
+                  81.6697,
+                  21.2799
+                ],
+                [
+                  81.6392,
+                  21.2971
+                ],
+                [
+                  81.6028,
+                  21.2924
+                ],
+                [
+                  81.5776,
+                  21.2672
+                ],
+                [
+                  81.5763,
+                  21.2324
+                ],
+                [
+                  81.6095,
+                  21.218
+                ],
+                [
+                  81.6374,
+                  21.2125
+                ],
+                [
+                  81.6635,
+                  21.2247
+                ],
+                [
+                  81.6804,
+                  21.25
+                ]
+              ]
+            ]
+          },
+          "dates": {
+            "b0": "2024-08-01",
+            "b1": "2024-10-15",
+            "a0": "2025-08-01",
+            "a1": "2025-10-15"
+          },
+          "where": "Raipur dist., Chhattisgarh",
+          "impact": [
+            [
+              "Sowing delay",
+              "flagged blocks"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "urban",
+      "label": "Urban / Encroachment",
+      "accent": "#e8b23a",
+      "icon": "🏗",
+      "query": "Where has built-up area increased in this zone since 2023?",
+      "desc": "High-res optical (Cartosat) change detection flags new construction and encroachment on water bodies — a query instead of a manual survey.",
+      "sites": [
+        {
+          "n": "Bellandur Lake, Bengaluru",
+          "lat": 12.935,
+          "lng": 77.67,
+          "z": 14,
+          "change": "+1.8 km² built-up on buffer",
+          "q": "Where has built-up area increased in this zone since 2023?",
+          "f": [
+            "Built-up footprint <b>encroaching the lake buffer</b> since 2023.",
+            "New structures on the wetland margin flagged automatically.",
+            "Encroachment on water bodies is a recurring governance failure.",
+            "Replaces a manual survey with a minutes-long map."
+          ],
+          "geo": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  77.6864,
+                  12.935
+                ],
+                [
+                  77.683,
+                  12.9448
+                ],
+                [
+                  77.673,
+                  12.9505
+                ],
+                [
+                  77.661,
+                  12.949
+                ],
+                [
+                  77.6526,
+                  12.9407
+                ],
+                [
+                  77.6521,
+                  12.9291
+                ],
+                [
+                  77.6602,
+                  12.9197
+                ],
+                [
+                  77.6735,
+                  12.9171
+                ],
+                [
+                  77.6859,
+                  12.923
+                ],
+                [
+                  77.6864,
+                  12.935
+                ]
+              ]
+            ]
+          },
+          "dates": {
+            "b0": "2023-01-01",
+            "b1": "2023-03-31",
+            "a0": "2025-01-01",
+            "a1": "2025-03-31"
+          },
+          "where": "Bellandur, Bengaluru",
+          "impact": [
+            [
+              "New built-up",
+              "+1.8 km² on buffer"
+            ],
+            [
+              "Lake area lost",
+              "encroached margin"
+            ]
+          ]
+        },
+        {
+          "n": "Gurugram Fringe, Haryana",
+          "lat": 28.42,
+          "lng": 77.0,
+          "z": 13,
+          "change": "new unauthorized plots",
+          "q": "Where is new construction appearing outside the plan?",
+          "f": [
+            "Change detection isolates <b>new plotting</b> on the urban fringe.",
+            "Supports enforcement against unauthorized colonies."
+          ],
+          "geo": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  77.0335,
+                  28.42
+                ],
+                [
+                  77.0263,
+                  28.4406
+                ],
+                [
+                  77.0043,
+                  28.4426
+                ],
+                [
+                  76.9873,
+                  28.4405
+                ],
+                [
+                  76.9754,
+                  28.4284
+                ],
+                [
+                  76.9746,
+                  28.4114
+                ],
+                [
+                  76.9861,
+                  28.3975
+                ],
+                [
+                  77.005,
+                  28.3937
+                ],
+                [
+                  77.0226,
+                  28.4023
+                ],
+                [
+                  77.0335,
+                  28.42
+                ]
+              ]
+            ]
+          },
+          "dates": {
+            "b0": "2023-01-01",
+            "b1": "2023-03-31",
+            "a0": "2025-01-01",
+            "a1": "2025-03-31"
+          },
+          "where": "Sector fringe, Gurugram",
+          "impact": [
+            [
+              "New plots",
+              "unauthorised"
+            ]
+          ]
+        },
+        {
+          "n": "ORR Belt, Hyderabad",
+          "lat": 17.45,
+          "lng": 78.36,
+          "z": 13,
+          "change": "+2.4 km² construction",
+          "q": "Where has built-up area grown along the ORR?",
+          "f": [
+            "Rapid built-up expansion tracked ring-road-wide.",
+            "Informs infrastructure and FSI planning."
+          ],
+          "geo": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  78.3919,
+                  17.45
+                ],
+                [
+                  78.385,
+                  17.4696
+                ],
+                [
+                  78.3658,
+                  17.4808
+                ],
+                [
+                  78.3429,
+                  17.4777
+                ],
+                [
+                  78.3369,
+                  17.4579
+                ],
+                [
+                  78.3361,
+                  17.4419
+                ],
+                [
+                  78.3469,
+                  17.4288
+                ],
+                [
+                  78.3647,
+                  17.4252
+                ],
+                [
+                  78.3813,
+                  17.4333
+                ],
+                [
+                  78.3919,
+                  17.45
+                ]
+              ]
+            ]
+          },
+          "dates": {
+            "b0": "2023-01-01",
+            "b1": "2023-03-31",
+            "a0": "2025-01-01",
+            "a1": "2025-03-31"
+          },
+          "where": "Outer Ring Road, Hyderabad",
+          "impact": [
+            [
+              "New built-up",
+              "+2.4 km²"
+            ]
+          ]
+        },
+        {
+          "n": "Sewri–Mahul Wetlands, Mumbai",
+          "lat": 19.0,
+          "lng": 72.9,
+          "z": 13,
+          "change": "mangrove → built-up",
+          "q": "Where are mangroves being lost to construction?",
+          "f": [
+            "Loss of <b>mangrove cover</b> to built-up flagged along the eastern shore.",
+            "Direct CRZ-violation screening tool."
+          ],
+          "geo": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  72.9252,
+                  19.0
+                ],
+                [
+                  72.9198,
+                  19.0146
+                ],
+                [
+                  72.9046,
+                  19.023
+                ],
+                [
+                  72.8864,
+                  19.0208
+                ],
+                [
+                  72.8738,
+                  19.0084
+                ],
+                [
+                  72.8731,
+                  18.9914
+                ],
+                [
+                  72.8898,
+                  18.9844
+                ],
+                [
+                  72.9037,
+                  18.9817
+                ],
+                [
+                  72.9167,
+                  18.9876
+                ],
+                [
+                  72.9252,
+                  19.0
+                ]
+              ]
+            ]
+          },
+          "dates": {
+            "b0": "2023-01-01",
+            "b1": "2023-03-31",
+            "a0": "2025-01-01",
+            "a1": "2025-03-31"
+          },
+          "where": "Sewri–Mahul, Mumbai",
+          "impact": [
+            [
+              "Mangrove lost",
+              "→ built-up"
+            ],
+            [
+              "Zone",
+              "CRZ"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "forestwater",
+      "label": "Forest & Water",
+      "accent": "#56d0ff",
+      "icon": "🌳",
+      "query": "Has forest cover shrunk / has this reservoir dropped since the monsoon?",
+      "desc": "Forest-cover and water-extent change detection for forest departments and water boards — replacing a slow expert workflow with a query.",
+      "sites": [
+        {
+          "n": "Aravalli, Gurugram–Faridabad",
+          "lat": 28.42,
+          "lng": 77.1,
+          "z": 12,
+          "change": "−12% tree cover",
+          "q": "Has forest cover shrunk here since last year?",
+          "f": [
+            "Change detection shows <b>thinning Aravalli scrub-forest</b>.",
+            "Mining and construction pressure on a critical NCR green buffer.",
+            "Feeds forest-department enforcement and afforestation targets."
+          ],
+          "geo": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  77.141,
+                  28.42
+                ],
+                [
+                  77.1324,
+                  28.4418
+                ],
+                [
+                  77.1076,
+                  28.4544
+                ],
+                [
+                  77.0775,
+                  28.4512
+                ],
+                [
+                  77.0564,
+                  28.4327
+                ],
+                [
+                  77.0551,
+                  28.4069
+                ],
+                [
+                  77.0755,
+                  28.386
+                ],
+                [
+                  77.1088,
+                  28.3803
+                ],
+                [
+                  77.1397,
+                  28.3934
+                ],
+                [
+                  77.141,
+                  28.42
+                ]
+              ]
+            ]
+          },
+          "dates": {
+            "b0": "2023-11-01",
+            "b1": "2024-01-31",
+            "a0": "2025-11-01",
+            "a1": "2026-01-31"
+          },
+          "where": "Aravalli belt, NCR",
+          "impact": [
+            [
+              "Tree cover lost",
+              "~12%"
+            ]
+          ]
+        },
+        {
+          "n": "Nagarjuna Sagar Reservoir",
+          "lat": 16.57,
+          "lng": 79.31,
+          "z": 12,
+          "change": "water −22% area",
+          "q": "Has this reservoir dropped since the monsoon?",
+          "f": [
+            "Waterline change shows the <b>reservoir shrinking</b> post-monsoon.",
+            "SAR/optical extent tracking for irrigation & hydropower planning.",
+            "Early signal for downstream drought and rationing."
+          ],
+          "geo": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  79.377,
+                  16.57
+                ],
+                [
+                  79.3625,
+                  16.6067
+                ],
+                [
+                  79.3185,
+                  16.6104
+                ],
+                [
+                  79.2846,
+                  16.6067
+                ],
+                [
+                  79.2607,
+                  16.5849
+                ],
+                [
+                  79.2592,
+                  16.5546
+                ],
+                [
+                  79.2822,
+                  16.5298
+                ],
+                [
+                  79.3199,
+                  16.523
+                ],
+                [
+                  79.3551,
+                  16.5385
+                ],
+                [
+                  79.377,
+                  16.57
+                ]
+              ]
+            ]
+          },
+          "dates": {
+            "b0": "2025-10-01",
+            "b1": "2025-11-30",
+            "a0": "2026-04-01",
+            "a1": "2026-05-31"
+          },
+          "index": "water",
+          "direction": "loss",
+          "where": "Nagarjuna Sagar, AP/TS",
+          "impact": [
+            [
+              "Water area lost",
+              "~22%"
+            ],
+            [
+              "Drawdown",
+              "post-monsoon"
+            ]
+          ]
+        },
+        {
+          "n": "Western Ghats — Kodagu",
+          "lat": 12.42,
+          "lng": 75.73,
+          "z": 12,
+          "change": "−9% canopy",
+          "q": "Where has canopy been lost to landslides / clearing?",
+          "f": [
+            "Canopy loss and landslide scars detected in the Ghats.",
+            "Supports eco-sensitive-zone monitoring."
+          ],
+          "geo": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  75.7778,
+                  12.42
+                ],
+                [
+                  75.7675,
+                  12.448
+                ],
+                [
+                  75.7387,
+                  12.464
+                ],
+                [
+                  75.7043,
+                  12.4596
+                ],
+                [
+                  75.6953,
+                  12.4312
+                ],
+                [
+                  75.6942,
+                  12.4084
+                ],
+                [
+                  75.7103,
+                  12.3897
+                ],
+                [
+                  75.737,
+                  12.3845
+                ],
+                [
+                  75.762,
+                  12.3961
+                ],
+                [
+                  75.7778,
+                  12.42
+                ]
+              ]
+            ]
+          },
+          "dates": {
+            "b0": "2023-11-01",
+            "b1": "2024-01-31",
+            "a0": "2025-11-01",
+            "a1": "2026-01-31"
+          },
+          "where": "Kodagu, Karnataka",
+          "impact": [
+            [
+              "Canopy lost",
+              "~9%"
+            ]
+          ]
+        },
+        {
+          "n": "KRS Reservoir, Karnataka",
+          "lat": 12.42,
+          "lng": 76.57,
+          "z": 13,
+          "change": "water −18% area",
+          "q": "Has the reservoir extent dropped since the monsoon?",
+          "f": [
+            "Shrinking water extent flagged at Krishna Raja Sagara.",
+            "Cauvery-basin allocation and drought input."
+          ],
+          "geo": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  76.6053,
+                  12.42
+                ],
+                [
+                  76.5978,
+                  12.44
+                ],
+                [
+                  76.5765,
+                  12.4514
+                ],
+                [
+                  76.5509,
+                  12.4483
+                ],
+                [
+                  76.5333,
+                  12.4315
+                ],
+                [
+                  76.5324,
+                  12.4083
+                ],
+                [
+                  76.5556,
+                  12.3987
+                ],
+                [
+                  76.5751,
+                  12.395
+                ],
+                [
+                  76.5934,
+                  12.4031
+                ],
+                [
+                  76.6053,
+                  12.42
+                ]
+              ]
+            ]
+          },
+          "dates": {
+            "b0": "2025-10-01",
+            "b1": "2025-11-30",
+            "a0": "2026-04-01",
+            "a1": "2026-05-31"
+          },
+          "index": "water",
+          "direction": "loss",
+          "where": "Krishna Raja Sagara, Karnataka",
+          "impact": [
+            [
+              "Water area lost",
+              "~18%"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "defence",
+      "label": "Border Monitoring",
+      "accent": "#b57bff",
+      "icon": "🛡",
+      "query": "New structures or build-up along this border strip?",
+      "desc": "Live Sentinel-1 SAR change detection over open monitoring boxes — day or night, through cloud. Uses only public Copernicus data; boxes are approximate, not specific installations.",
+      "sites": [
+        {
+          "n": "LAC Sector — Eastern Ladakh",
+          "lat": 33.9,
+          "lng": 78.5,
+          "z": 12,
+          "change": "new structures",
+          "q": "New structures or build-up along this border strip?",
+          "f": [
+            "Live <b>Sentinel-1 SAR</b> change over an open monitoring box — day or night, through cloud.",
+            "New bright radar returns can indicate <b>new structures or cleared ground</b>.",
+            "Public Copernicus data; the box is approximate — not a specific installation.",
+            "Same core tech as the civilian modes: change detection + natural language."
+          ],
+          "geo": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  78.541,
+                  33.9
+                ],
+                [
+                  78.5324,
+                  33.9245
+                ],
+                [
+                  78.5076,
+                  33.9387
+                ],
+                [
+                  78.4775,
+                  33.9351
+                ],
+                [
+                  78.4564,
+                  33.9143
+                ],
+                [
+                  78.4551,
+                  33.8853
+                ],
+                [
+                  78.4755,
+                  33.8617
+                ],
+                [
+                  78.5088,
+                  33.8553
+                ],
+                [
+                  78.5397,
+                  33.8701
+                ],
+                [
+                  78.541,
+                  33.9
+                ]
+              ]
+            ]
+          },
+          "dates": {
+            "b0": "2024-06-01",
+            "b1": "2024-08-31",
+            "a0": "2025-06-01",
+            "a1": "2025-08-31"
+          },
+          "where": "Eastern Ladakh (monitoring box)",
+          "impact": [
+            [
+              "New structures",
+              "flagged (illustrative)"
+            ],
+            [
+              "Sensor",
+              "Sentinel-1 SAR"
+            ]
+          ]
+        },
+        {
+          "n": "LoC Sector — North Kashmir",
+          "lat": 34.55,
+          "lng": 74.2,
+          "z": 12,
+          "change": "track/earthwork change",
+          "q": "What has changed along the monitored strip since last pass?",
+          "f": [
+            "Live <b>Sentinel-1 SAR</b> backscatter change over an open border strip.",
+            "Flags earthworks and new hard targets between satellite passes.",
+            "Public data; approximate monitoring box, illustrating the capability."
+          ],
+          "geo": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  74.2558,
+                  34.55
+                ],
+                [
+                  74.2438,
+                  34.5831
+                ],
+                [
+                  74.2071,
+                  34.5863
+                ],
+                [
+                  74.1788,
+                  34.583
+                ],
+                [
+                  74.1589,
+                  34.5634
+                ],
+                [
+                  74.1577,
+                  34.5361
+                ],
+                [
+                  74.1768,
+                  34.5138
+                ],
+                [
+                  74.2083,
+                  34.5077
+                ],
+                [
+                  74.2376,
+                  34.5216
+                ],
+                [
+                  74.2558,
+                  34.55
+                ]
+              ]
+            ]
+          },
+          "dates": {
+            "b0": "2024-06-01",
+            "b1": "2024-08-31",
+            "a0": "2025-06-01",
+            "a1": "2025-08-31"
+          },
+          "where": "North Kashmir (monitoring box)",
+          "impact": [
+            [
+              "Earthwork change",
+              "flagged"
+            ],
+            [
+              "Sensor",
+              "Sentinel-1 SAR"
+            ]
+          ]
+        },
+        {
+          "n": "Desert Sector — West Rajasthan",
+          "lat": 26.9,
+          "lng": 70.1,
+          "z": 12,
+          "change": "cleared-ground change",
+          "q": "Where has ground disturbance appeared in the strip?",
+          "f": [
+            "Live <b>Sentinel-1 SAR</b> change over an arid strip — cleared ground shows as backscatter change.",
+            "Public Copernicus data; approximate box, not targeting a specific site."
+          ],
+          "geo": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  70.1637,
+                  26.9
+                ],
+                [
+                  70.1501,
+                  26.935
+                ],
+                [
+                  70.1116,
+                  26.955
+                ],
+                [
+                  70.0657,
+                  26.9495
+                ],
+                [
+                  70.0538,
+                  26.914
+                ],
+                [
+                  70.0522,
+                  26.8855
+                ],
+                [
+                  70.0738,
+                  26.8622
+                ],
+                [
+                  70.1094,
+                  26.8556
+                ],
+                [
+                  70.1426,
+                  26.8702
+                ],
+                [
+                  70.1637,
+                  26.9
+                ]
+              ]
+            ]
+          },
+          "dates": {
+            "b0": "2024-06-01",
+            "b1": "2024-08-31",
+            "a0": "2025-06-01",
+            "a1": "2025-08-31"
+          },
+          "where": "West Rajasthan (monitoring box)",
+          "impact": [
+            [
+              "Cleared ground",
+              "flagged"
+            ],
+            [
+              "Sensor",
+              "Sentinel-1 SAR"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

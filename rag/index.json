@@ -1,0 +1,194 @@
+[
+  {
+    "id": "lulc_classes.md:0:BigEarthNet v2.0 — 19-class land-use/lan",
+    "text": "# BigEarthNet v2.0 — 19-class land-use/land-cover (LULC) nomenclature\n\nEach entry defines a class as used in BigEarthNet.txt annotations. Definitions\nfollow the CORINE Land Cover (CLC) scheme these classes are derived from.",
+    "metadata": {
+      "source": "lulc_classes.md",
+      "title": "BigEarthNet v2.0 — 19-class land-use/land-cover (LULC) nomenclature"
+    }
+  },
+  {
+    "id": "lulc_classes.md:1:Urban fabric",
+    "text": "## Urban fabric\nResidential and built-up areas: continuous and discontinuous housing, streets,\nand associated green space. Dominated by buildings and impervious surfaces.",
+    "metadata": {
+      "source": "lulc_classes.md",
+      "title": "Urban fabric"
+    }
+  },
+  {
+    "id": "lulc_classes.md:2:Industrial or commercial units",
+    "text": "## Industrial or commercial units\nFactories, warehouses, commercial centres, and their access infrastructure.\nLarge flat roofs and paved lots distinguish them from residential urban fabric.",
+    "metadata": {
+      "source": "lulc_classes.md",
+      "title": "Industrial or commercial units"
+    }
+  },
+  {
+    "id": "lulc_classes.md:3:Arable land",
+    "text": "## Arable land\nCultivated land for annual crops (cereals, root crops): non-irrigated arable\nland, permanently irrigated land, and rice fields. Regular field geometry.",
+    "metadata": {
+      "source": "lulc_classes.md",
+      "title": "Arable land"
+    }
+  },
+  {
+    "id": "lulc_classes.md:4:Permanent crops",
+    "text": "## Permanent crops\nCrops not in rotation that occupy the land for long periods: vineyards, fruit\ntrees and berry plantations, olive groves.",
+    "metadata": {
+      "source": "lulc_classes.md",
+      "title": "Permanent crops"
+    }
+  },
+  {
+    "id": "lulc_classes.md:5:Pastures",
+    "text": "## Pastures\nGrassland under agricultural use — grazed or mechanically harvested for hay;\ndense grass cover, often with hedgerows or fences.",
+    "metadata": {
+      "source": "lulc_classes.md",
+      "title": "Pastures"
+    }
+  },
+  {
+    "id": "lulc_classes.md:6:Complex cultivation patterns",
+    "text": "## Complex cultivation patterns\nMosaics of small parcels of annual crops, pasture, and permanent crops, often\nmixed with scattered houses and gardens.",
+    "metadata": {
+      "source": "lulc_classes.md",
+      "title": "Complex cultivation patterns"
+    }
+  },
+  {
+    "id": "lulc_classes.md:7:Land principally occupied by agriculture",
+    "text": "## Land principally occupied by agriculture, with significant areas of natural vegetation\nAgricultural land interspersed with substantial natural vegetation (shrubs,\ntrees, wetland patches).",
+    "metadata": {
+      "source": "lulc_classes.md",
+      "title": "Land principally occupied by agriculture, with significant areas of natural vegetation"
+    }
+  },
+  {
+    "id": "lulc_classes.md:8:Agro-forestry areas",
+    "text": "## Agro-forestry areas\nAnnual crops or grazing under a tree canopy (e.g. dehesa/montado); combined\nagriculture and forestry on the same parcel.",
+    "metadata": {
+      "source": "lulc_classes.md",
+      "title": "Agro-forestry areas"
+    }
+  },
+  {
+    "id": "lulc_classes.md:9:Broad-leaved forest",
+    "text": "## Broad-leaved forest\nForest of deciduous/broad-leaved species (oak, beech, birch) where tree cover\nexceeds shrub and herbaceous cover.",
+    "metadata": {
+      "source": "lulc_classes.md",
+      "title": "Broad-leaved forest"
+    }
+  },
+  {
+    "id": "lulc_classes.md:10:Coniferous forest",
+    "text": "## Coniferous forest\nForest dominated by needle-leaved evergreen species (pine, spruce, fir).",
+    "metadata": {
+      "source": "lulc_classes.md",
+      "title": "Coniferous forest"
+    }
+  },
+  {
+    "id": "lulc_classes.md:11:Mixed forest",
+    "text": "## Mixed forest\nForest where neither broad-leaved nor coniferous species exceed ~75% cover — a\nmixture of the two.",
+    "metadata": {
+      "source": "lulc_classes.md",
+      "title": "Mixed forest"
+    }
+  },
+  {
+    "id": "lulc_classes.md:12:Natural grassland and sparsely vegetated",
+    "text": "## Natural grassland and sparsely vegetated areas\nGrassland with low or no human influence, plus areas of sparse vegetation over\nrock, sand, or scree (>50% bare).",
+    "metadata": {
+      "source": "lulc_classes.md",
+      "title": "Natural grassland and sparsely vegetated areas"
+    }
+  },
+  {
+    "id": "lulc_classes.md:13:Moors, heathland and sclerophyllous vege",
+    "text": "## Moors, heathland and sclerophyllous vegetation\nLow woody vegetation: heaths, moorland, and drought-adapted sclerophyllous\nscrub (maquis, garrigue).",
+    "metadata": {
+      "source": "lulc_classes.md",
+      "title": "Moors, heathland and sclerophyllous vegetation"
+    }
+  },
+  {
+    "id": "lulc_classes.md:14:Transitional woodland/shrub",
+    "text": "## Transitional woodland/shrub\nShrub or young trees regenerating after clearance/fire, or forest degradation —\nan intermediate stage between grassland/shrub and forest.",
+    "metadata": {
+      "source": "lulc_classes.md",
+      "title": "Transitional woodland/shrub"
+    }
+  },
+  {
+    "id": "lulc_classes.md:15:Beaches, dunes, sands",
+    "text": "## Beaches, dunes, sands\nUnvegetated or sparsely vegetated sand and dune systems along coasts, rivers,\nor inland; also referred to as \"beaches, dunes, or sands\".",
+    "metadata": {
+      "source": "lulc_classes.md",
+      "title": "Beaches, dunes, sands"
+    }
+  },
+  {
+    "id": "lulc_classes.md:16:Inland wetlands",
+    "text": "## Inland wetlands\nNon-forested, seasonally or permanently waterlogged land inland: marshes and\npeat bogs.",
+    "metadata": {
+      "source": "lulc_classes.md",
+      "title": "Inland wetlands"
+    }
+  },
+  {
+    "id": "lulc_classes.md:17:Coastal wetlands",
+    "text": "## Coastal wetlands\nTidal and brackish wetlands: salt marshes, salines, and intertidal flats along\nthe coast.",
+    "metadata": {
+      "source": "lulc_classes.md",
+      "title": "Coastal wetlands"
+    }
+  },
+  {
+    "id": "lulc_classes.md:18:Inland waters",
+    "text": "## Inland waters\nRivers, canals, lakes, and reservoirs — standing or flowing fresh water inland.\nAlso called \"inland water\".",
+    "metadata": {
+      "source": "lulc_classes.md",
+      "title": "Inland waters"
+    }
+  },
+  {
+    "id": "lulc_classes.md:19:Marine waters",
+    "text": "## Marine waters\nOpen sea, coastal lagoons, and estuaries — saline water bodies connected to the\nocean. Also called \"marine waters\".",
+    "metadata": {
+      "source": "lulc_classes.md",
+      "title": "Marine waters"
+    }
+  },
+  {
+    "id": "tasks_and_metadata.md:1:Task types (BigEarthNet.txt `type` / `ca",
+    "text": "## Task types (BigEarthNet.txt `type` / `category`)\n- **binary** — yes/no questions. Categories: `presence` (is a class present?),\n  `area` (does a class cover a given fraction/area?), `count` (are there N\n  instances?), `adjacency` (do two classes adjoin?).\n- **mcq** — multiple-choice questions over the same categories plus `climate zone`,\n  `country`, `season`.\n- **captioning** — free-text description of the scene's land cover and layout.\n- **bounding box** — grounding: given a `<point>(x, y)</point>` or a\n  `<ref>class</ref>`, return a box `[x1 y1, x2 y2]`. Coordinates are on a\n  0..1000 grid (top-left origin, x right, y down).",
+    "metadata": {
+      "source": "tasks_and_metadata.md",
+      "title": "Task types (BigEarthNet.txt `type` / `category`)"
+    }
+  },
+  {
+    "id": "tasks_and_metadata.md:2:Answer conventions",
+    "text": "## Answer conventions\n- Binary answers are exactly `yes` or `no`.\n- Grounding boxes are `[x1 y1, x2 y2]` integers in 0..1000.\n- Be concise; do not restate the question. Abstain or say \"uncertain\" when the\n  evidence is weak rather than guessing.",
+    "metadata": {
+      "source": "tasks_and_metadata.md",
+      "title": "Answer conventions"
+    }
+  },
+  {
+    "id": "tasks_and_metadata.md:3:Köppen–Geiger climate zones (values seen",
+    "text": "## Köppen–Geiger climate zones (values seen in this dataset)\n- **Cold, no dry season, warm summer** (Dfb) — humid continental; much of\n  central/eastern Europe.\n- **Temperate, no dry season, warm summer** (Cfb) — oceanic; western Europe.\n- **Temperate, dry/hot summer** (Csa/Csb) — Mediterranean.\n- Climate zone can often be inferred from vegetation cues (e.g. sclerophyllous\n  scrub suggests Mediterranean).",
+    "metadata": {
+      "source": "tasks_and_metadata.md",
+      "title": "Köppen–Geiger climate zones (values seen in this dataset)"
+    }
+  },
+  {
+    "id": "tasks_and_metadata.md:4:Acquisition metadata",
+    "text": "## Acquisition metadata\n- **Seasons**: Spring, Summer, Fall, Winter — affect vegetation greenness and\n  snow cover, which changes class appearance.\n- **Countries in the corpus**: Austria, Belgium, Finland, Ireland, Kosovo,\n  Lithuania, Luxembourg, Portugal, Serbia, Switzerland.\n- Imagery is Sentinel-2 optical RGB previews (bands B04/B03/B02). Do not expect\n  SAR or full 12-band spectral cues in the preview.",
+    "metadata": {
+      "source": "tasks_and_metadata.md",
+      "title": "Acquisition metadata"
+    }
+  }
+]
