@@ -9,6 +9,7 @@ data/rsvqa_mini/
 adapter/
 *.html
 !presets/*
+!frontend/index.html
 .DS_Store
 gemini_api_key.txt
 .env
